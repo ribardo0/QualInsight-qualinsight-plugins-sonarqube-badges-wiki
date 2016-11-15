@@ -1,3 +1,5 @@
+### Table of Content
+
 * [Installation](Installation)
 * Usage
   * [Quality Gate Badges](https://github.com/QualInsight/qualinsight-plugins-sonarqube-badges/wiki/Quality-Gate-status-badges)
