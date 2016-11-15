@@ -1,12 +1,26 @@
 ## Usage
 
-Use the ``/api/badges/measure?key=<project or view key>&metric=<metric key>`` URL in order to generate a badge that displays any measure related to a project or view. 
+In order to generate a badge that displays any measure related to a project or view analysed by your SonarQube instance, call the following REST webservice:
 
-If the measure impacts the quality gate of the project, the badge is colorized depending on the condition that has been set (requires version `2.1.0`.)
+``/api/badges/measure?key=<project or view key>&metric=<metric key>``
 
-As for quality gate status badges, the plugin generates by default badges with rounded corners. If you want to generate flat badges instead, add the optional parameter ``template`` with value ``FLAT`` as follows: ``/api/badges/measure?key=<project or view key>&metric=<metric key>&template=FLAT`` (requires version `2.1.0`.)
+## Possible output
 
-If you want the badge to be blinking if the displayed measure causes the quality gate's `ERROR` status, add the optional parameter ``blinking`` with value ``true`` as follows: ``/api/badges/measure?key=<project or view key>&metric=<metric key>&blinking=true``  (requires version `2.1.0`.)
+The badge displays the name of the metric in the left part of the badge with the measured value in the right part of the badge.
+
+If the measure impacts the quality gate of the project, the badge is colorized depending on the condition that has been set (requires version `3.0.0`.)
+
+If no measure is available for the metric, or if no metric with this ``>metric key>`` exists, then ``N/A`` will be displayed in the right part of the badge.
+
+## Available options
+
+As for quality gate status badges, the plugin generates by default badges with rounded corners. If you want to generate flat badges instead, add the optional parameter ``template`` with value ``FLAT`` as follows: 
+
+``/api/badges/measure?key=<project or view key>&metric=<metric key>&template=FLAT`` (requires version `3.0.0`.)
+
+If you want the badge to be blinking if the displayed measure causes the quality gate's `ERROR` status, add the optional parameter ``blinking`` with value ``true`` as follows: 
+
+``/api/badges/measure?key=<project or view key>&metric=<metric key>&blinking=true``  (requires version `3.0.0`.)
 
 SonarQube's [CoreMetrics class](https://github.com/SonarSource/sonarqube/blob/master/sonar-plugin-api/src/main/java/org/sonar/api/measures/CoreMetrics.java) file lists all `metric keys` that can be used. For even more details, see the [SonarQube Metric Definitions](http://docs.sonarqube.org/display/SONAR/Metric+Definitions). I have listed the ones you may need to display as a badge in the following table :
 
@@ -40,7 +54,7 @@ SonarQube's [CoreMetrics class](https://github.com/SonarSource/sonarqube/blob/ma
 | sqale_debt_ratio | technical debt ratio |
 | new_sqale_debt_ratio | new technical debt ratio |
 
-*Note 3*: Some `metric keys` are not usable "as is" as they return values that need interpretation (such as time, effort or ratings.) This explains why I haven't added them to the table yet.
+*Note*: Some `metric keys` are not usable "as is" as they return values that need interpretation (such as time, effort or ratings.) This explains why I haven't added them to the table yet.
 
 ## Display the Measure badge on a web page
 
