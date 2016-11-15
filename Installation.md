@@ -2,7 +2,7 @@ In order to use this plugin on your SonarQube server instance, you need first to
 
 Release Candidate (RC) versions can be directly downloaded from the [project's GitHub releases page](https://github.com/QualInsight/qualinsight-plugins-sonarqube-badges/releases).
 
-### Requirements and Compatibility Matrix
+## Requirements and Compatibility Matrix
 
 | SVG Badges Plugin | SonarQube             | Main Features                                               |
 |-------------------|-----------------------|-------------------------------------------------------------| 
