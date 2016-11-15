@@ -1,6 +1,10 @@
 ## Usage
 
-Use the ``/api/badges/ce_activity?key=<project or view key>`` URL in order to generate a badge that displays the compute engine activity status of a project or view. Depending on the project's status and SonarQube configuration, one of the following image types will be generated :
+Use the ``/api/badges/ce_activity?key=<project or view key>`` URL in order to generate a badge that displays the compute engine activity status of a project or view (available since version 3.0.0) 
+
+## Possible output
+
+Depending on the project's status and SonarQube configuration, one of the following image types will be generated :
 
 * [Success] indicates that last compute engine activity resulted in a success
 * [Failed] indicates that last compute engine activity resulted in a failure
@@ -9,9 +13,15 @@ Use the ``/api/badges/ce_activity?key=<project or view key>`` URL in order to ge
 * [Canceled] indicates that the last compute engine activity was canceled
 * [Not Found] indicates that the project / view could not be found
 
-By default, the plugin generates badges with rounded corners. If you want to generate flat badges instead, add the optional parameter ``template`` with value ``FLAT`` as follows: ``/api/badges/ce_activity?key=<project or view key>&template=FLAT`` (requires version `2.1.0`.)
+## Available options
 
-If you want the badge to be blinking if the compute engine is in `FAILED` status, add the optional parameter ``blinking`` with value ``true`` as follows: ``/api/badges/ce_activity?key=<project or view key>&blinking=true`` (requires version `2.1.0`.)
+By default, the plugin generates badges with rounded corners. If you want to generate flat badges instead, add the optional parameter ``template`` with value ``FLAT`` as follows: 
+
+``/api/badges/ce_activity?key=<project or view key>&template=FLAT`` (requires version `3.0.0`.)
+
+If you want the badge to be blinking if the compute engine is in `FAILED` status, add the optional parameter ``blinking`` with value ``true`` as follows: 
+
+``/api/badges/ce_activity?key=<project or view key>&blinking=true`` (requires version `3.0.0`.)
 
 ## Display the Compute Engine Activity badge on a web page
 
