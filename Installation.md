@@ -20,4 +20,4 @@ By default, the plugin is configured as follows:
 
 You can modify this configuration on SonarQube's administration page ("SVG Badges" section.)
 
-![Configuration screen](images/configuration.png)
+[[https://github.com/QualInsight/qualinsight-plugins-sonarqube-badges/blob/master/images/configuration.png|alt=Configuration screen]]
