@@ -1,6 +1,10 @@
 ## Usage
 
-Use the ``/api/badges/gate?key=<project or view key>`` URL in order to generate a badge that displays the quality gate status of a project or view. Depending on the project's status and SonarQube configuration, one of the following image types will be generated :
+In order to generate a badge that displays the quality gate status of a project or view analysed by your SonarQube instance, call the following REST webservice:
+
+```/api/badges/gate?key=<project or view key>```
+
+Depending on the project's status and SonarQube configuration, one of the following image types will be generated :
 
 * [Passing](images/gate_rounded_passing.svg) indicates that the project passes the quality gate (QG)
 * [Warning](images/gate_rounded_warning.svg) indicates that the project does not pass the quality gate due to QG warnings
