@@ -2,7 +2,7 @@
 
 * [Installation](Installation)
   * [Compatibility Matrix](https://github.com/QualInsight/qualinsight-plugins-sonarqube-badges/wiki/Requirements-and-Compatibility-Matrix)
-  * [Configuration](https://github.com/QualInsight/qualinsight-plugins-sonarqube-badges/wiki/Configuration)
+* [Configuration](https://github.com/QualInsight/qualinsight-plugins-sonarqube-badges/wiki/Configuration)
 * Usage
   * [Quality Gate Badges](https://github.com/QualInsight/qualinsight-plugins-sonarqube-badges/wiki/Quality-Gate-status-badges)
   * [Measures Badges](https://github.com/QualInsight/qualinsight-plugins-sonarqube-badges/wiki/Measure-badges)
