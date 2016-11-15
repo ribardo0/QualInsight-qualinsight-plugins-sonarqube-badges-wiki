@@ -1,3 +1,5 @@
+## Usage
+
 Use the ``/api/badges/measure?key=<project or view key>&metric=<metric key>`` URL in order to generate a badge that displays any measure related to a project or view. 
 
 If the measure impacts the quality gate of the project, the badge is colorized depending on the condition that has been set (requires version `2.1.0`.)
@@ -40,11 +42,11 @@ SonarQube's [CoreMetrics class](https://github.com/SonarSource/sonarqube/blob/ma
 
 *Note 3*: Some `metric keys` are not usable "as is" as they return values that need interpretation (such as time, effort or ratings.) This explains why I haven't added them to the table yet.
 
-#### Display the Measure badge on a web page
+## Display the Measure badge on a web page
 
 As for Quality Gate badges, you can use HTML or markdown as follows:
 
-##### HTML Link:
+### HTML Link:
 
 ```
 <a href="<serverBaseURL>/dashboard/index/<project or view key>"><img src="<serverBaseURL>/api/badges/measure?key=<project or view key>&metric=<core metric key>"/></a>
@@ -56,7 +58,7 @@ Example:
 <a href="http://localhost:9000/dashboard/index/com.qualinsight.plugins.sonarqube:qualinsight-plugins-sonarqube-badges"><img src="http://localhost:9000/api/badges/measure?key=com.qualinsight.plugins.sonarqube:qualinsight-plugins-sonarqube-badges&metric=coverage"/></a>
 ```
 
-##### Markdown Link:
+### Markdown Link:
 
 ```
 [![Quality Gate](<serverBaseURL>/api/badges/gate?key=<project or view key>&metric=<core metric key>)](<serverBaseURL>/dashboard/index/<project or view key>)
