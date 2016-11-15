@@ -10,7 +10,7 @@ The badge displays the name of the metric in the left part of the badge with the
 
 If the measure impacts the quality gate of the project, the badge is colorized depending on the condition that has been set (requires version `3.0.0`.)
 
-If no measure is available for the metric, or if no metric with this ``>metric key>`` exists, then ``N/A`` will be displayed in the right part of the badge.
+If no measure is available for the metric, or if no metric with this ``<metric key>`` exists, then ``N/A`` will be displayed in the right part of the badge.
 
 ## Available options
 
