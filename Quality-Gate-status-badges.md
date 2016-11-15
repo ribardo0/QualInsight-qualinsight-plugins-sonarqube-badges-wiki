@@ -1,4 +1,4 @@
-# Usage
+## Usage
 
 Use the ``/api/badges/gate?key=<project or view key>`` URL in order to generate a badge that displays the quality gate status of a project or view. Depending on the project's status and SonarQube configuration, one of the following image types will be generated :
 
