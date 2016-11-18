@@ -12,6 +12,19 @@ If the measure impacts the quality gate of the project, the badge is colorized d
 
 If no measure is available for the metric, or if no metric with this ``<metric key>`` exists, then ``N/A`` will be displayed in the right part of the badge.
 
+# Example
+
+Here are example live badges displaying the current value of some metrics measured on the SVG Badges plugin codebase taken from SonarQube.com:
+
+![Lines Of Code](https://sonarqube.com/api/badges/measure?key=com.qualinsight.plugins.sonarqube:qualinsight-plugins-sonarqube-badges&metric=ncloc)
+![New Bugs](https://sonarqube.com/api/badges/measure?key=com.qualinsight.plugins.sonarqube:qualinsight-plugins-sonarqube-badges&metric=new_bugs)
+![New Vulnerabilities](https://sonarqube.com/api/badges/measure?key=com.qualinsight.plugins.sonarqube:qualinsight-plugins-sonarqube-badges&metric=new_vulnerabilities)
+![New Code Smells](https://sonarqube.com/api/badges/measure?key=com.qualinsight.plugins.sonarqube:qualinsight-plugins-sonarqube-badges&metric=new_code_smells)
+![Public Documented API density](https://sonarqube.com/api/badges/measure?key=com.qualinsight.plugins.sonarqube:qualinsight-plugins-sonarqube-badges&metric=public_documented_api_density)
+![Test Success Density](https://sonarqube.com/api/badges/measure?key=com.qualinsight.plugins.sonarqube:qualinsight-plugins-sonarqube-badges&metric=test_success_density)
+![Overall Coverage](https://sonarqube.com/api/badges/measure?key=com.qualinsight.plugins.sonarqube:qualinsight-plugins-sonarqube-badges&metric=overall_coverage)
+![Technical Debt Ratio](https://sonarqube.com/api/badges/measure?key=com.qualinsight.plugins.sonarqube:qualinsight-plugins-sonarqube-badges&metric=sqale_debt_ratio)
+
 ## Available options
 
 As for quality gate status badges, the plugin generates by default badges with rounded corners. If you want to generate flat badges instead, add the optional parameter ``template`` with value ``FLAT`` as follows: 
