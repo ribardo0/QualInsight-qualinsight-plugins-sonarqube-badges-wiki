@@ -1,3 +1,5 @@
+![SVG Badges Logo](https://github.com/QualInsight/qualinsight-plugins-sonarqube-badges/blob/master/images/logo.png)
+
 Welcome to the [SVG Badges plugin](https://github.com/QualInsight/qualinsight-plugins-sonarqube-badges) wiki!
 
 You'll find here how to [install](Installation) and [configure](https://github.com/QualInsight/qualinsight-plugins-sonarqube-badges/wiki/Configuration) the plugin, as well as information about 
