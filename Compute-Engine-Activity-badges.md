@@ -13,6 +13,12 @@ Depending on the project's status and SonarQube configuration, one of the follow
 * [Canceled] indicates that the last compute engine activity was canceled
 * [Not Found] indicates that the project / view could not be found
 
+# Example
+
+Here is a live badge displaying the status of the last analysis (compute engine execution) of the SVG Badges plugin on SonarQube.com:
+
+![Lines Of Code](https://sonarqube.com/api/badges/ce_activity?key=com.qualinsight.plugins.sonarqube:qualinsight-plugins-sonarqube-badges)
+
 ## Available options
 
 By default, the plugin generates badges with rounded corners. If you want to generate flat badges instead, add the optional parameter ``template`` with value ``FLAT`` as follows: 
