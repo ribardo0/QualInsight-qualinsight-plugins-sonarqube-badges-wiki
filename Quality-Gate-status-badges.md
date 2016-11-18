@@ -14,6 +14,12 @@ Depending on the project's status and SonarQube configuration, one of the follow
 * [No Gate](images/gate_rounded_notset.svg) indicates that no quality gate has been set for the specified project
 * [Not Found](images/gate_rounded_notfound.svg) indicates that the project / view could not be found
 
+## Examples
+
+Here is a live badge for the current quality gate status of the SVG Badges plugin on SonarQube.com:
+
+[![Quality Gate](https://sonarqube.com/api/badges/gate?key=com.qualinsight.plugins.sonarqube:qualinsight-plugins-sonarqube-badges)](https://sonarqube.com/dashboard/index/com.qualinsight.plugins.sonarqube:qualinsight-plugins-sonarqube-badges)
+
 ## Available options
 
 By default, the plugin generates badges with rounded corners. If you want to generate flat badges instead, add the optional parameter ``template`` with value ``FLAT`` as follows: 
