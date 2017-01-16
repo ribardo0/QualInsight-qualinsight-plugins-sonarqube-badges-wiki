@@ -8,8 +8,6 @@ Depending on the project's status and SonarQube configuration, one of the follow
 
 * [Success] indicates that last compute engine activity resulted in a success
 * [Failed] indicates that last compute engine activity resulted in a failure
-* [In Progress] indicates that the last compute engine activity is still in progress
-* [Pending] indicates that the last compute engine activity is still pending
 * [Canceled] indicates that the last compute engine activity was canceled
 * [Not Found] indicates that the project / view could not be found
 
