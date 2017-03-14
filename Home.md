@@ -9,4 +9,4 @@ The way to generate [Quality Gate badges](https://github.com/QualInsight/qualins
 
 There are unfortunately some [known limitations](https://github.com/QualInsight/qualinsight-plugins-sonarqube-badges/wiki/Known-limitations). Make sure to read them before using the plugin. This may help you not waste your time.
 
-Last but not least feel free to [contribute](https://github.com/QualInsight/qualinsight-plugins-sonarqube-badges/wiki/Contributing) to the project and thank you to [all past contributors](https://github.com/QualInsight/qualinsight-plugins-sonarqube-badges/graphs/contributors) !
+Last but not least feel free to [contribute](https://github.com/QualInsight/qualinsight-contribution-guidelines/wiki) to the project and thank you to [all past contributors](https://github.com/QualInsight/qualinsight-plugins-sonarqube-badges/graphs/contributors) !
