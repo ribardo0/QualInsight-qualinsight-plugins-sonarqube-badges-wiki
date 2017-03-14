@@ -9,4 +9,4 @@
   * [CE Activity Badges](https://github.com/QualInsight/qualinsight-plugins-sonarqube-badges/wiki/Compute-Engine-Activity-badges)
 * [Known Limitations](https://github.com/QualInsight/qualinsight-plugins-sonarqube-badges/wiki/Known-limitations)
 * [Webservices Documentation](https://github.com/QualInsight/qualinsight-plugins-sonarqube-badges/wiki/Webservices-documentation)
-* [Contributing](https://github.com/QualInsight/qualinsight-plugins-sonarqube-badges/wiki/Contributing)
+* [Contributing](https://github.com/QualInsight/qualinsight-contribution-guidelines/wiki)
