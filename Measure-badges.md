@@ -1,4 +1,4 @@
-## Usage
+﻿## Usage
 
 In order to generate a badge that displays any measure related to a project or view analysed by your SonarQube instance, call the following REST webservice:
 
@@ -93,7 +93,7 @@ Example:
 ### Markdown Link:
 
 ```
-[![Quality Gate](<serverBaseURL>/api/badges/gate?key=<project or view key>&metric=<core metric key>)](<serverBaseURL>/dashboard/index/<project or view key>)
+[![Quality Gate](<serverBaseURL>/api/badges/measure?key=<project or view key>&metric=<core metric key>)](<serverBaseURL>/dashboard/index/<project or view key>)
 ```
 
 Example:
